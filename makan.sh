@@ -7,4 +7,4 @@ WALLET=pkt1qzl36mvwr8julec6ypaf2agngccfex4n78mwtg5
 
 cd "$(dirname "$0")"
 
-chmod +x ./carimakan && sudo ./carimakan ann -p $WALLET $POOL1 $POOL2 $POOL3
+chmod +x ./carimakan && ./carimakan ann -p $WALLET $POOL1 $POOL2 $POOL3
